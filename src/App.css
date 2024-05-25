@@ -1,0 +1,87 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container
+{
+  background-color: blanchedalmond;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image
+{
+  display: flex;
+justify-content: center;
+margin-bottom: 15px;
+}
+h1{
+  color: rgb(43, 43, 162);
+  margin-bottom: 10px;
+  border-top:3px dotted ;
+  border-bottom:3px dotted ;
+  padding: 5px;
+}
+img{
+  
+  width: 120px;
+  text-align: center;
+}
+.inpuconatiner
+{
+  
+  background-color: rgb(225, 226, 226);
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.inpuconatiner label{
+  display: block;
+  margin-bottom: 4px;
+}
+.inpus input{
+ width: 100%;
+ padding: 5px;
+}
+.inpus ,.fromcur,.tocur
+{
+  margin-bottom: 10px;
+}
+.fromcur select,.tocur select{
+  padding: 5px;
+}
+
+h1{
+  font-size: medium;
+}
+p{
+  padding: 10px;
+  border: 2px dotted;
+}
+ input,select
+ {
+  outline: none;
+  width: 100%;
+ }
+ input:focus,select:focus
+ {
+  border-color: blueviolet;
+ }
+ .minicontainer
+ {
+width: 400px;
+
+ }
+ .finalvalue
+ {
+/* padding: auto; */
+  text-align: center;
+ }
